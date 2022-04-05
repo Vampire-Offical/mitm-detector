@@ -1,0 +1,7 @@
+[Unit]
+Description=Securing System
+After=multi-user.target[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /etc/mitm/main.py
+WantedBy=multi-user.target

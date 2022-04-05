@@ -7,7 +7,7 @@ def notify_sender():
     notification.notify(
             title = 'Critical',
             message = 'unkown activity is detected in your network',
-            app_icon = "/home/kali/Desktop/maintools/mitmdetecor/error.ico",
+            app_icon = "/etc/mitm/error.ico",
             timeout = 10,
     )
 
